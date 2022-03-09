@@ -62,7 +62,7 @@ const createAxes = (config, pc, xscale, flags, axis) =>
       .attr('y', 0)
       .attr(
         'transform',
-        'translate(0,-5) rotate(' + config.dimensionTitleRotation + ')'
+        'translate(0,-15) rotate(' + config.dimensionTitleRotation + ')'
       )
       .attr('x', 0)
       .attr('class', 'label')
