@@ -2,6 +2,9 @@ import { select, selectAll } from 'd3-selection';
 
 const flipAxisAndUpdatePCP = (config, pc, axis) =>
   function(dimension) {
+    // do nothing since broken
+    return;
+
     pc.flip(dimension);
     pc.brushReset(dimension);
 
